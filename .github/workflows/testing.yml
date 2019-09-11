@@ -16,5 +16,7 @@ jobs:
           java-version: 11
       - name: 'Build HellWorldApp'
         run: javac src/HelloWorldApp.java -d .
-      - name: 'Run HelloWorldApp'
-        run: java HelloWorldApp
+      - name: 'Build HellWorldAppTest'
+        run: javac test/HelloWorldAppTest.java -d .
+      - name: 'Run HelloWorldAppTest'
+        run: java HelloWorldAppTest

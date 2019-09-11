@@ -3,6 +3,6 @@ public class HelloWorldApp {
 	System.out.println(greetings("World"));
     }
     public static String greetings(String name){
-	return "Hello " + name + " !";
+	return "Hello " + name + " ?";
     }
 }
